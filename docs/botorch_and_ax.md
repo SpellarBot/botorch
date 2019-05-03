@@ -39,7 +39,7 @@ The functionality provided by Ax should apply to most standard use cases.
 Even if you want something more custom, it may still be easier to use the Ax
 framework. For instance, say you want to experiment with using a different kind
 of surrogate model, or a new type of acquisition function, but leave the rest of
-the the Bayesian Optimization loop untouched. It is then straightforward to plug
+the Bayesian Optimization loop untouched. It is then straightforward to plug
 your custom BoTorch model or acquisition function into Ax to take advantage of
 Ax's various loop control APIs, as well as its powerful automated metadata
 management, data storage, etc. See the
